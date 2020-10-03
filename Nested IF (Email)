@@ -1,0 +1,9 @@
+email=str(input("Enter the Email address:"))
+if email== "skuroojahmed@gmail.com":
+    password=str(input("Enter Password:"))
+    if password== "Ur00j":
+        print("Welcome Urooj")
+    else:
+        print("Enter correct Password")
+else:
+    print("Enter correct Email address")
